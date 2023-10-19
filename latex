@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author: Maureen Herbert
+% Based off of: github.com/jakeryang/resume
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Maureen Herbert} \\ \vspace{1pt}
+    \small 672-866-2828 $|$ \href{mailto:maureen287rachel@gmail.com}{maureen287rachel@gmail.com} $|$ 
+    \href{https://maureenrachel28.github.io/}{website} $|$ 
+    \href{https://linkedin.com/in/maureen-herbert}{linkedin} $|$
+    \href{https://github.com/maureenrachel28}{github}
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: R, Python, MySQL, PostgreSQL, JavaScript, HTML/CSS, LaTeX} \\
+     \textbf{Frameworks}{: Pytorch, Apache Spark, Apache Hadoop, Flask, Node.js, Bootstrap, RestAPI} \\
+     \textbf{Developer Tools}{: Tableau, Github, AWS, VS Code, PyCharm, Jupyter, Google Collab, DBeaver} \\
+      \textbf{Data Science}{: Data Scraping, Exploratory Data Analysis, Statistical Testing, Data Visualization, Machine Learning} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, keras, scikit-learn, seaborn, nltk, scrapy} \\
+      \textbf{Other}{: Research Writing, Technical Writing, Organization, Leadership, Creativity, Adaptibility}
+    }}
+ \end{itemize}
+
+
+
+
+%-------------------------------------------
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data Warehouse and Engineering - Programmer Analyst}{ Feb. 2022 -- Jul. 2022}
+      {Pando}{Chennai,India}
+      \resumeItemListStart
+        \resumeItem{  Collaborated with a team of 5 to migrate the entire data warehouse from PostgreSQL to Redshift in 5 days, achieving faster parallel processing and query optimization.}
+        \resumeItem{ Implemented an ETL pipeline for logistics data using Python, PostgreSQL, and AWS, enabling efficient data transfer and transformation}
+        \resumeItem{Automated data reporting scripts and integrated the client API with the data warehouse, streamlining data access and reporting processes.}
+        
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Research and Development - Machine Learning Analyst}{Jul. 2021 -- Dec. 2022}
+      {Teknuance Info Solutions}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Analyzed product requirements to identify Machine Learning (ML) use cases, ensuring alignment with business needs and communicating insights to product owners, developers and stakeholders, ultimately saving time in the development cycle }
+        \resumeItem{ Accelerated the data science pipeline by conducting comprehensive research and analysis on the comparison of ML algorithms, utilizing open source libraries such as scikit-learn and Keras, BERT, YOLO.
+}
+        \resumeItem{ Developed automated data visualization tools using Python, MySQL, ggplot, seaborn, and Matplotlib, enhancing data-driven decision-making capabilities}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{InternShips}
+  \resumeSubHeadingListStart
+
+       \resumeSubheading
+      {Research and Development Intern}{ Jul. 2020 -- Dec. 2020}
+      {Teknuance Info Solutions}{Chennai,India}
+      \resumeItemListStart
+        \resumeItem{Conducted market research using Python, leveraging data analysis and visualization with Matplotlib to extract insights and inform strategic business decisions. Actively participated in product demos, showcasing data-driven findings to stakeholders.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Python Developer Intern}{ Jan. 2019}
+      {Technosoft Global Solutions}{Chennai,India}
+      \resumeItemListStart
+        \resumeItem{Developed a Python-based chatbot using Natural Language Processing techniques in Python and NLTK to assist insurance callers in resolving medical health insurance queries, improving customer support efficiency}
+          \resumeItemListEnd
+      
+ \resumeSubHeadingListEnd
+%-----------VOLUNTEER EXPERIENCE-----------
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {President of the Rotaract Club of LICET}{ Jul. 2019 -- May. 2020}
+      {Loyola- ICAM College of Engineering and Technology}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Managed a club of 100 members with a committee of 15 members, successfully conducting over 20 events including, personal development workshops, fundraisers and blood and stem cell donation awareness campaigns for members of the club and university students}
+      \resumeItemListEnd
+
+             
+    \resumeSubHeadingListEnd
+
+%
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Simon Fraser University}{Burnaby, Canada}
+      {Masters in Professional Computing Science - Big Data}{Sept. 2023 -- Present}
+    \resumeSubheading
+      {Loyola-ICAM College of Engineering and Technology}{Chennai, India}
+      {Bachelor of Engineering in Computer Science and Engineering}{Jul. 2016 -- Sept. 2020}   
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\textbf{Global Mental Health Initiatives: Big Data Analysis} \\ 
+          \emph{Spark, ChartJS, Cassandra,pandas,
+          NumPy }}{Sept 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Conducted global mental health initiative analysis, comparing it with social media stigma trends over time. Employed Unsupervised Machine Learning and Sentiment Analysis on Twitter data. Performed data wrangling and EDA on structured data from public health sources spanning two decades, presenting results on a website with visualizations.}
+            
+          \resumeItemListEnd
+              \resumeProjectHeading
+          {\textbf{Data Science for Marketing} \\ \emph{Python, Tableau }}{Feb 2023 - March. 2023}
+          \resumeItemListStart
+            \resumeItem{Utilized Python for the analysis of Fitbit usage data to execute customer segmentation, and harnessed social media data analysis to predict trends, benefiting Bellabeat's Marketing Team. This project was undertaken as part of the Google Data Analytics program.}
+            
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Water Conservation - Data Science for Social Good} \\ \emph{Python, scikit-learn}} {  Sept. 2022 -- Oct. 2022}
+          \resumeItemListStart
+            \resumeItem{Conducted comprehensive data analysis of India's water consumption data, creating interactive visualizations to effectively raise awareness of the critical water scarcity issue in the country}
+             \resumeItem{Developed an ML model to predict water consumption trends}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Voice Activated Text Editor with ML based Text Summarization} \\ \emph{Python,NLTK, Keras }}{Jan. 2019 -- May 2020}
+          \resumeItemListStart
+            \resumeItem{ Designed and Developed A text editor controlled by
+voice-activated commands enabled with voice typing, speech-to-text, and text-to-speech features.
+Summary of text files produced using machine learning-based text summarization techniques. using
+Python, Tensorflow, NLP, ML and front end using the python Tkinter library.}
+            
+          \resumeItemListEnd
+       
+             
+    \resumeSubHeadingListEnd
+
+
+
+\end{document}
